@@ -3,3 +3,122 @@ body
     background-color: #00a0ab;
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
+
+h2
+{
+    text-align: center;
+}
+
+.button
+{
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.nav
+{
+    background-color: black;
+    padding: 15px 200px 15px 15px;
+}
+
+.black
+{
+    background-color: black;
+}
+
+.blue
+{
+    background-color: lightblue;
+}
+
+.green
+{
+    background-color: lightgreen;
+}
+
+.yellow
+{
+    background-color: lightyellow;
+    color: black;
+}
+
+.pink
+{
+    background-color: lightpink;
+}
+
+.natural
+{
+    background-color: tan;
+}
+
+.black2
+{
+    background-color: #333333;
+}
+
+.white
+{
+    background-color: antiquewhite;
+    color: black;
+}
+
+.blue2
+{
+    background-color: darkblue;
+}
+
+.center
+{
+    display: block;
+    margin: auto;
+    width: 60%;
+}
+
+ol
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#header
+{
+    margin: auto;
+    text-align: center;
+    border: 5px solid red;
+    width: 60%;
+    color: blue;
+}
+
+#tableOfContents
+{
+    padding: 15px;
+    border: 5px solid red;
+    margin-top: 10px;
+    width: 15%;
+    float: left;
+    position: fixed;
+    overflow-y: scroll;
+    top: 1px;
+    bottom: 1px;
+}
+
+#mainContent
+{
+    float: right;
+    width: 80%;
+}
+
+button
+{
+    display: block;
+    margin: auto;
+    width: 20%;
+}
