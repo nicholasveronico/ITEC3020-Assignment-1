@@ -131,6 +131,18 @@ h2 {
     width: 60%;
 }
 
+.left {
+    display: block;
+    margin-left: 10px;
+    width: 60%;
+}
+
+.right {
+    display: block;
+    margin-right: 10px;
+    width: 60%;
+}
+
 #allContent {
     background: lightgrey;
     margin: 60px;
