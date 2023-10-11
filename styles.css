@@ -1,16 +1,27 @@
-body
-{
+body {
     background-image: url('img/background.gif');
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
-h2
-{
-    text-align: center;
+#logo {
+    height: 50px;
+    width: 201px;
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
 }
 
-.button
-{
+#header {
+    height: 60px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    background-color: #1B1B1B;
+    color: blue;
+}
+
+.button {
     border: none;
     color: white;
     padding: 15px 32px;
@@ -23,8 +34,7 @@ h2
     text-overflow: ellipsis;
 }
 
-.nav
-{
+.nav {
     font-family: Hack, monospace;
     text-transform: uppercase;
     color: white;
@@ -32,15 +42,30 @@ h2
     background: none;
 }
 
-.nav:hover
-{
+.nav:hover {
     border-radius: 10px;
     color: #333333;
     background-color: #b2b4b2;
 }
 
-.cart
-{
+#tableOfContents {
+    padding: 15px;
+    width: 100%;
+    white-space: nowrap;
+}
+
+#tableOfContents a {
+    float: left;
+    text-decoration: none;
+}
+
+#tableOfContents form {
+    float: right;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.cart {
     text-transform: uppercase;
     background-repeat: no-repeat;
     background-position: 10px center;
@@ -49,143 +74,71 @@ h2
     background-image: url("img/cart.png");
 }
 
-.black
-{
+#tableOfContents .cart {
+    float: right;
+    margin-right: 50px;
+}
+
+#search {
+    font-family: Hack, monospace;
+}
+
+h2 {
+    text-align: center;
+}
+
+.black {
     background-color: black;
 }
 
-.blue
-{
+.blue {
     background-color: lightblue;
 }
 
-.green
-{
+.green {
     background-color: lightgreen;
 }
 
-.yellow
-{
+.yellow {
     background-color: lightyellow;
     color: black;
 }
 
-.pink
-{
+.pink {
     background-color: lightpink;
 }
 
-.natural
-{
+.natural {
     background-color: tan;
 }
 
-.black2
-{
+.black2 {
     background-color: #333333;
 }
 
-.white
-{
+.white {
     background-color: antiquewhite;
     color: black;
 }
 
-.blue2
-{
+.blue2 {
     background-color: darkblue;
 }
 
-.center
-{
+.center {
     display: block;
     margin: auto;
     width: 60%;
 }
 
-ol
-{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-#header
-{
-    height: 60px;
-    width: 100%;
-    margin: auto;
-    text-align: center;
-    background-color: #1B1B1B;
-    color: blue;
-}
-
-#tableOfContents
-{
-    padding: 15px;
-    width: 100%;
-    white-space: nowrap;
-}
-
-#tableOfContents li
-{
-    display: inline;
-    float: left;
-    margin-right: 20px;
-}
-
-#tableOfContents a
-{
-    float: left;
-    text-decoration: none;
-}
-
-#tableOfContents form
-{
-    float: right;
-    margin-right: 10px;
-    text-decoration: none;
-}
-
-#tableOfContents .cart
-{
-    float: right;
-    margin-right: 50px;
-}
-
-#search
-{
-    font-family: Hack, monospace;
-}
-
-#allContent
-{
+#allContent {
     background: white;
     margin: 60px;
     overflow: hidden;
 }
 
-#mainContent
-{
+#mainContent {
     float: right;
     width: 80%;
     margin-top: 50px;
-}
-
-#logo
-{
-    height: 50px;
-    width: 201px;
-    float: left;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-right: 10px;
-}
-
-
-button
-{
-    display: block;
-    margin: auto;
-    width: 20%;
 }
