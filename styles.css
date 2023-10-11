@@ -1,6 +1,6 @@
 body
 {
-    background-color: #00a0ab;
+    background-image: url('img/background.gif');
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
@@ -16,15 +16,37 @@ h2
     padding: 15px 32px;
     text-align: center;
     display: inline-block;
-    font-size: 16px;
+    font-size: 14px;
     margin: 4px 2px;
     cursor: pointer;
+    width: auto;
+    text-overflow: ellipsis;
 }
 
 .nav
 {
-    background-color: black;
-    padding: 15px 200px 15px 15px;
+    font-family: Hack, monospace;
+    text-transform: uppercase;
+    color: white;
+    padding: 5px 8px;
+    background: none;
+}
+
+.nav:hover
+{
+    border-radius: 10px;
+    color: #333333;
+    background-color: #b2b4b2;
+}
+
+.cart
+{
+    text-transform: uppercase;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    background-size: 20px;
+    padding-left: 40px;
+    background-image: url("img/cart.png");
 }
 
 .black
@@ -90,31 +112,76 @@ ol
 
 #header
 {
+    height: 60px;
+    width: 100%;
+    margin: auto;
     text-align: center;
-    margin: 10px 10px 10px 450px;
-    border: 5px solid black;
-    width: 60%;
+    background-color: #1B1B1B;
     color: blue;
 }
 
 #tableOfContents
 {
     padding: 15px;
-    border: 5px solid black;
-    margin-top: 10px;
-    width: 15%;
+    width: 100%;
+    white-space: nowrap;
+}
+
+#tableOfContents li
+{
+    display: inline;
     float: left;
-    position: fixed;
-    overflow-y: scroll;
-    top: 1px;
-    bottom: 1px;
+    margin-right: 20px;
+}
+
+#tableOfContents a
+{
+    float: left;
+    text-decoration: none;
+}
+
+#tableOfContents form
+{
+    float: right;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+#tableOfContents .cart
+{
+    float: right;
+    margin-right: 50px;
+}
+
+#search
+{
+    font-family: Hack, monospace;
+}
+
+#allContent
+{
+    background: white;
+    margin: 60px;
+    overflow: hidden;
 }
 
 #mainContent
 {
     float: right;
     width: 80%;
+    margin-top: 50px;
 }
+
+#logo
+{
+    height: 50px;
+    width: 201px;
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+}
+
 
 button
 {
