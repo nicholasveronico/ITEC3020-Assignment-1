@@ -131,21 +131,8 @@ h2 {
     width: 60%;
 }
 
-.leftSug {
+.suggested {
     display: inline-block;
-    margin-left: 10px;
-    width: 30%;
-}
-
-.centerSug {
-    display: inline-block;
-    margin: auto;
-    width: 30%;
-}
-
-.rightSug {
-    display: inline-block;
-    margin-right: 10px;
     width: 30%;
 }
 
