@@ -87,6 +87,47 @@ h2 {
     text-align: center;
 }
 
+#modelSelection {
+    text-align: center;
+}
+
+.phone {
+    float: left;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-left: 300px;
+    width: 20%;
+    height: 20%;
+}
+
+#phoneName {
+    text-align: left;
+}
+
+.subheading {
+    font-family: Hack, monospace;
+    font-size: 12px;
+    text-align: left;
+}
+
+#phoneInfo {
+    margin-top: 100px;
+    float: right;
+    padding-right: 300px;
+}
+
+.colour-selection {
+    padding: 20px 20px 20px 20px;
+    border-radius: 50%;
+}
+
+.storage-selection {
+    padding: 20px 30px 20px 30px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
 .black {
     background-color: black;
 }
@@ -138,6 +179,15 @@ h2 {
 }
 
 #mainContent {
-    float: center;
-    margin: 50px;
+}
+
+#productDescription {
+    border: 2px solid #333333;
+    width: 500px;
+    margin-left: 200px;
+    margin-right: 600px;
+    padding: 10px;
+    float: left;
+    text-align: left;
+    text-wrap: normal;
 }
