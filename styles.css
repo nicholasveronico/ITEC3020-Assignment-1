@@ -131,16 +131,22 @@ h2 {
     width: 60%;
 }
 
-.left {
+.leftSug {
     display: block;
     margin-left: 10px;
-    width: 60%;
+    width: 30%;
 }
 
-.right {
+.centerSug {
+    display: block;
+    margin: auto;
+    width: 30%;
+}
+
+.rightSug {
     display: block;
     margin-right: 10px;
-    width: 60%;
+    width: 30%;
 }
 
 #allContent {
