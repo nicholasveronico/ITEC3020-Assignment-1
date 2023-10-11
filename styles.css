@@ -131,9 +131,19 @@ h2 {
     width: 60%;
 }
 
-.suggested {
+.suggested1 {
     display: inline-block;
     width: 30%;
+}
+
+.suggested2 {
+    display: inline-block;
+    width: 30%;
+}
+
+.suggested3 {
+    display: inline-block;
+    width: 50%;
 }
 
 #allContent {
