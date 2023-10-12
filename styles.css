@@ -56,18 +56,18 @@ body {
     margin-left: 200px;
 }
 
-#tableOfContents {
+#table-of-contents {
     padding: 15px;
     width: 100%;
     white-space: nowrap;
 }
 
-#tableOfContents a {
+#table-of-contents a {
     float: left;
     text-decoration: none;
 }
 
-#tableOfContents form {
+#table-of-contents form {
     float: right;
     margin-right: 10px;
     text-decoration: none;
@@ -82,7 +82,7 @@ body {
     background-image: url("img/cart.png");
 }
 
-#tableOfContents .cart {
+#table-of-contents .cart {
     float: right;
     margin-right: 50px;
 }
@@ -95,7 +95,7 @@ h2 {
     text-align: center;
 }
 
-#modelSelection {
+#model-selection {
     text-align: center;
 }
 
@@ -108,7 +108,7 @@ h2 {
     height: 20%;
 }
 
-.phoneName {
+.phone-name {
     text-align: left;
 }
 
@@ -118,7 +118,7 @@ h2 {
     text-align: left;
 }
 
-.phoneInfo {
+.phone-info {
     margin-top: 100px;
     float: right;
     padding-right: 300px;
@@ -153,19 +153,19 @@ h2 {
     background-color: lightpink;
 }
 
-.titanblack {
+.titan-black {
     background-color: #4b4c4e;
 }
 
-.titanwhite {
+.titan-white {
     background-color: #f3f2ec;
 }
 
-.titanblue {
+.titan-blue {
     background-color: #4a5160;
 }
 
-.titannatural {
+.titan-natural {
     background-color: #bbb5a9;
 }
 
@@ -175,13 +175,13 @@ h2 {
     width: 60%;
 }
 
-#allContent {
+#all-content {
     background: lightgrey;
     margin: 60px;
     overflow: hidden;
 }
 
-.productDescription {
+.product-description {
     border: 2px solid #333333;
     width: 1000px;
     margin: 0 600px 50px 300px;
@@ -191,7 +191,7 @@ h2 {
     text-wrap: normal;
 }
 
-#finalConfiguration {
+#final-configuration {
     display: inline-block;
     margin: 50px 0 200px 500px;
     text-align: center;
