@@ -1,160 +1,140 @@
 <!DOCTYPE html>
-
-<html lang = "en">
+<html lang="en">
 
 <head>
-    <link rel = "stylesheet" href = "styles.css">
-    <meta charset = "UTF-8">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
     <title>ITEC 3020 Assignment 1</title>
 </head>
 
 <body>
-
-<div id = "all-content">
-
-<div id = "header">
-    <img id = "logo" src = "img/logo.png" alt="Logo"/>
-    <div id ="table-of-contents">
-        <a href="#header" class="button nav">Home</a>
-        <a href="#model-selection" class="button nav">Models</a>
-        <a href="#iphone-15" class="button nav">iPhone 15</a>
-        <a href="#iphone-15-pro" class="button nav">iPhone 15 Pro</a>
-        <a href="#other-products" class="button nav">Other Products</a>
-        <a href="#final-configuration" class="button nav cart">Cart</a>
-        <form>
-            <input id="search" type="text" placeholder="Search..." name="search">
-            <button type="submit" class="button nav search">Search</button>
-        </form>
+<div id="all-content">
+    <div id="header">
+        <img id="logo" src="img/logo.png" alt="Logo" />
+        <div id="table-of-contents">
+            <a href="#header" class="button nav">Home</a>
+            <a href="#model-selection" class="button nav">Models</a>
+            <a href="#iphone-15" class="button nav">iPhone 15</a>
+            <a href="#iphone-15-pro" class="button nav">iPhone 15 Pro</a>
+            <a href="#other-products" class="button nav">Other Products</a>
+            <a href="#final-configuration" class="button nav cart">Cart</a>
+            <form>
+                <label for="search"></label>
+                <input id="search" type="text" placeholder="Search..." name="search">
+                <button type="submit" class="button nav search">Search</button>
+            </form>
+        </div>
     </div>
 
-</div>
-
-<div>
-    <br/>
-    <div id = "model-selection">
+    <div id="model-selection">
         <h2>SELECT YOUR MODEL</h2>
-        <button class = "button black model">iPhone 15</button>
-        <button class = "button black model">iPhone 15 Plus</button>
-        <button class = "button black model">iPhone 15 Pro</button>
-        <button class = "button black model">iPhone 15 Pro Max</button>
+        <button class="button black model">iPhone 15</button>
+        <button class="button black model">iPhone 15 Plus</button>
+        <button class="button black model">iPhone 15 Pro</button>
+        <button class="button black model">iPhone 15 Pro Max</button>
     </div>
 
-    <div id = "iphone-15">
-
-    <img class = "phone" src = "img/iPhone_15_Black.png" alt="iPhone 15 Black"/>
-
-    <div class = "phone-info">
-        <h2 class = "phone-name">iPhone 15 and 15 Plus</h2>
-        <div>
-            <h2 class = "subheading">Select Colour</h2>
-            <button class = "button colour-selection black"></button>
-            <button class = "button colour-selection blue"></button>
-            <button class = "button colour-selection yellow"></button>
-            <button class = "button colour-selection pink"></button>
+    <div id="iphone-15">
+        <img class="phone" src="img/iPhone_15_Black.png" alt="iPhone 15 Black" />
+        <div class="phone-info">
+            <h2 class="phone-name">iPhone 15 and 15 Plus</h2>
+            <div>
+                <h2 class="subheading">Select Colour</h2>
+                <button class="button colour-selection black"></button>
+                <button class="button colour-selection blue"></button>
+                <button class="button colour-selection yellow"></button>
+                <button class="button colour-selection pink"></button>
+            </div>
+            <div>
+                <h2 class="subheading">Select Storage</h2>
+                <button class="button storage-selection">128 GB</button>
+                <button class="button storage-selection">256 GB</button>
+                <button class="button storage-selection">512 GB</button>
+                <button class="button storage-selection">1 TB</button>
+            </div>
+            <p>iPhone 15 starts at $1129 and iPhone 15 Plus starts at $1279</p>
         </div>
-        <div>
-            <h2 class = "subheading">Select Storage</h2>
-            <button class = "button storage-selection">128 GB</button>
-            <button class = "button storage-selection">256 GB</button>
-            <button class = "button storage-selection">512 GB</button>
-            <button class = "button storage-selection">1 TB</button>
-        </div>
-        <p>iPhone 15 starts at $1129 and iPhone 15 Plus starts at $1279</p>
-    </div>
-
-    <div class = "product-description">
-        <h2 class = "subheading">Product Description</h2>
-        <p class = "description">The iPhone 15 series brings a whole new design featuring colour-infused back glass and a strong aluminum chassis.
-            The beloved Dynamic Island provides a new way to interact with your notifications and background tasks. Its 6.1-inch
-            display paired with the new 48MP sensors provide excellent clarity to your screen and cameras. New this year is the all-new
-            charging port: USB-C. You can expect faster charging and transfer speeds with the updated port.</p>
-        <br/>
-        <h2 class = "subheading">Product Features</h2>
-        <div class = "features">
-            <ul>
-                <li>48MP dual cameras</li>
-                <li>5 bright colours</li>
-                <li>Dynamic Island</li>
-                <li>A16 Bionic chip</li>
-                <li>USB-C</li>
-                <li>iOS 17 with new features like NameDrop</li>
-                <li>6.1-inch or 6.7-inch sizes</li>
-                <li>128GB, 256GB or 512GB storage</li>
-            </ul>
-            <p>For more information, <a href="https://www.apple.com/ca">visit the Apple Store here.</a></p>
+        <div class="product-description">
+            <h2 class="subheading">Product Description</h2>
+            <p class="description">The iPhone 15 series brings a whole new design featuring colour-infused back
+                glass and a strong aluminum chassis. The beloved Dynamic Island provides a new way to interact with your notifications and background tasks. Its 6.1-inch display paired with the new 48MP sensors provide excellent clarity to your screen and cameras. New this year is the all-new charging port: USB-C. You can expect faster charging and transfer speeds with the updated port.</p>
+            <h2 class="subheading">Product Features</h2>
+            <div class="features">
+                <ul>
+                    <li>48MP dual cameras</li>
+                    <li>5 bright colours</li>
+                    <li>Dynamic Island</li>
+                    <li>A16 Bionic chip</li>
+                    <li>USB-C</li>
+                    <li>iOS 17 with new features like NameDrop</li>
+                    <li>6.1-inch or 6.7-inch sizes</li>
+                    <li>128GB, 256GB or 512GB storage</li>
+                </ul>
+                <p>For more information, <a href="https://www.apple.com/ca">visit the Apple Store here.</a></p>
+            </div>
         </div>
     </div>
-    </div>
 
-    <div id = "iphone-15-pro">
-    <img class = "phone" src = "img/iPhone_15_Pro_Black_Titanium.png" alt="iPhone 15 Pro Black Titanium"/>
-
-    <div class = "phone-info">
-        <h2 class = "phone-name">iPhone 15 Pro and Pro Max</h2>
-        <div>
-            <h2 class = "subheading">Select Colour</h2>
-            <button class = "button colour-selection titan-black"></button>
-            <button class = "button colour-selection titan-blue"></button>
-            <button class = "button colour-selection titan-natural"></button>
-            <button class = "button colour-selection titan-white"></button>
+    <div id="iphone-15-pro">
+        <img class="phone" src="img/iPhone_15_Pro_Black_Titanium.png" alt="iPhone 15 Pro Black Titanium" />
+        <div class="phone-info">
+            <h2 class="phone-name">iPhone 15 Pro and Pro Max</h2>
+            <div>
+                <h2 class="subheading">Select Colour</h2>
+                <button class="button colour-selection titan-black"></button>
+                <button class="button colour-selection titan-blue"></button>
+                <button class="button colour-selection titan-natural"></button>
+                <button class="button colour-selection titan-white"></button>
+            </div>
+            <div>
+                <h2 class="subheading">Select Storage</h2>
+                <button class="button storage-selection">128 GB</button>
+                <button class="button storage-selection">256 GB</button>
+                <button class="button storage-selection">512 GB</button>
+                <button class="button storage-selection">1 TB</button>
+            </div>
+            <p>iPhone 15 Pro starts at $1449 and iPhone 15 Pro Max starts at $1749</p>
         </div>
-        <div>
-            <h2 class = "subheading">Select Storage</h2>
-            <button class = "button storage-selection">128 GB</button>
-            <button class = "button storage-selection">256 GB</button>
-            <button class = "button storage-selection">512 GB</button>
-            <button class = "button storage-selection">1 TB</button>
-        </div>
-        <p>iPhone 15 Pro starts at $1449 and iPhone 15 Pro Max starts at $1749</p>
-    </div>
-
-    <div class = "product-description">
-        <h2 class = "subheading">Product Description</h2>
-        <p class = "description"> For the iPhone 15 Pro series, you can expect a new processor -- the remarkable A17 Pro. Say goodbye to the mute switch
-            and hello to the Action button, where you could customize it to do over 10 different actions in a click. Plus, with the
-            third camera, you get up to 5x optical zoom, with excellent low-light shots. A new Titanium shell boasts a matte-glass back
-            and incredible durability.</p>
-        <h2 class = "subheading">Product Features</h2>
-        <div class = "features">
-            <ul>
-                <li>48MP tri cameras</li>
-                <li>4 deep metallic colours</li>
-                <li>Action button</li>
-                <li>A17 Pro chip</li>
-                <li>USB-C</li>
-                <li>iOS 17 with new features like Collaborative Playlists</li>
-                <li>6.1-inch or 6.7-inch sizes</li>
-                <li>256GB, 512GB or 1TB storage</li>
-            </ul>
-            <p>For more information, <a href="https://www.apple.com/ca">visit the Apple Store here.</a></p>
+        <div class="product-description">
+            <h2 class="subheading">Product Description</h2>
+            <p class="description">For the iPhone 15 Pro series, you can expect a new processor -- the remarkable A17 Pro. Say goodbye to the mute switch and hello to the Action button, where you could customize it to do over 10 different actions in a click. Plus, with the third camera, you get up to 5x optical zoom, with excellent low-light shots. A new Titanium shell boasts a matte-glass back and incredible durability.</p>
+            <h2 class="subheading">Product Features</h2>
+            <div class="features">
+                <ul>
+                    <li>48MP tri cameras</li>
+                    <li>4 deep metallic colours</li>
+                    <li>Action button</li>
+                    <li>A17 Pro chip</li>
+                    <li>USB-C</li>
+                    <li>iOS 17 with new features like Collaborative Playlists</li>
+                    <li>6.1-inch or 6.7-inch sizes</li>
+                    <li>256GB, 512GB or 1TB storage</li>
+                </ul>
+                <p>For more information, <a href="https://www.apple.com/ca">visit the Apple Store here.</a></p>
+            </div>
         </div>
     </div>
-    </div>
 
-    <div id = "final-configuration">
+    <div id="final-configuration">
         <h3>Your iPhone model has been chosen. Click here to add to your cart:</h3>
-        <button class = "button black">ADD TO CART</button>
-
+        <button class="button black">ADD TO CART</button>
         <h3>You can review the items in your cart here:</h3>
-        <button class = "button black">VIEW CART</button>
+        <button class="button black">VIEW CART</button>
     </div>
 
-    <div id = "other-products">
+    <div id="other-products">
         <h2>HERE ARE SOME OTHER PRODUCTS YOU MIGHT LIKE THAT PAIR WELL WITH THE IPHONE 15</h2>
-
         <figure>
-            <img src = "img/Apple Watch.png" alt="Apple Watch Series 9"/>
-            <figcaption><a href = "https://www.apple.com/ca/apple-watch-series-9/">Apple Watch Series 9</a></figcaption>
+            <img src="img/Apple Watch.png" alt="Apple Watch Series 9" />
+            <figcaption><a href="https://www.apple.com/ca/apple-watch-series-9/">Apple Watch Series 9</a></figcaption>
         </figure>
-
         <figure>
-            <img src = "img/AirPods.png" alt="AirPods Pro 2 (2nd generation)"/>
-            <figcaption><a href = "https://www.apple.com/ca/airpods-pro/">AirPods Pro (2nd generation)</a></figcaption>
+            <img src="img/AirPods.png" alt="AirPods Pro 2 (2nd generation)" />
+            <figcaption><a href="https://www.apple.com/ca/airpods-pro/">AirPods Pro (2nd generation)</a></figcaption>
         </figure>
-
         <figure>
-            <img src = "img/MacBook.png" alt="MacBook Pro (16-inch, M2 Pro)"/>
-            <figcaption><a href = "https://www.apple.com/ca/macbook-pro-14-and-16/">MacBook Pro (16-inch, M2 Pro)</a></figcaption>
+            <img src="img/MacBook.png" alt="MacBook Pro (16-inch, M2 Pro)" />
+            <figcaption><a href="https://www.apple.com/ca/macbook-pro-14-and-16/">MacBook Pro (16-inch, M2 Pro)</a></figcaption>
         </figure>
     </div>
 
@@ -163,9 +143,6 @@
             <p>&copy; 2023 iZone. All rights reserved.</p>
         </div>
     </footer>
-
-</div>
 </div>
 </body>
-
 </html>
