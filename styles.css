@@ -91,7 +91,7 @@ h2 {
     text-align: center;
 }
 
-.phone {
+#phone {
     float: left;
     margin-top: 100px;
     margin-bottom: 100px;
@@ -136,10 +136,6 @@ h2 {
     background-color: lightblue;
 }
 
-.green {
-    background-color: lightgreen;
-}
-
 .yellow {
     background-color: lightyellow;
     color: black;
@@ -147,6 +143,22 @@ h2 {
 
 .pink {
     background-color: lightpink;
+}
+
+.titanblack {
+    background-color: #4b4c4e;
+}
+
+.titanwhite {
+    background-color: #f3f2ec;
+}
+
+.titanblue {
+    background-color: #4a5160;
+}
+
+.titannatural {
+    background-color: #bbb5a9;
 }
 
 .natural {
