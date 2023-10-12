@@ -16,7 +16,6 @@ body {
     margin: auto;
     text-align: center;
     background-color: #1B1B1B;
-    color: blue;
 }
 
 .button {
@@ -44,16 +43,6 @@ body {
     border-radius: 10px;
     color: #333333;
     background-color: #b2b4b2;
-}
-
-.tab240 {
-    display: inline-block;
-    margin-left: 240px;
-}
-
-.tab200 {
-    display: inline-block;
-    margin-left: 200px;
 }
 
 #table-of-contents {
@@ -227,4 +216,3 @@ footer {
 #iphone-15, #iphone-15-pro {
     display: inline;
 }
-
