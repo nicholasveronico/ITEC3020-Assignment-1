@@ -48,9 +48,14 @@ body {
     background-color: #b2b4b2;
 }
 
-.tab {
+.tab240 {
     display: inline-block;
     margin-left: 240px;
+}
+
+.tab200 {
+    display: inline-block;
+    margin-left: 200px;
 }
 
 #tableOfContents {
