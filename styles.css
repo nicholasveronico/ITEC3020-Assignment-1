@@ -48,6 +48,11 @@ body {
     background-color: #b2b4b2;
 }
 
+.tab {
+    display: inline-block;
+    margin-left: 40px;
+}
+
 #tableOfContents {
     padding: 15px;
     width: 100%;
