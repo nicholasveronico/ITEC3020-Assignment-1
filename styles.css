@@ -7,9 +7,7 @@ body {
     height: 50px;
     width: 201px;
     float: left;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-right: 10px;
+    padding: 5px 10px 5px 0;
 }
 
 #header {
@@ -97,16 +95,53 @@ h2 {
     text-align: center;
 }
 
+#modelSelection {
+    text-align: center;
+}
+
+.phone {
+    float: left;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-left: 300px;
+    width: 20%;
+    height: 20%;
+}
+
+.phoneName {
+    text-align: left;
+}
+
+.subheading {
+    font-family: Hack, monospace;
+    font-size: 15px;
+    text-align: left;
+}
+
+.phoneInfo {
+    margin-top: 100px;
+    float: right;
+    padding-right: 300px;
+}
+
+.colour-selection {
+    padding: 20px 20px 20px 20px;
+    border-radius: 50%;
+}
+
+.storage-selection {
+    padding: 20px 30px 20px 30px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
 .black {
     background-color: black;
 }
 
 .blue {
     background-color: lightblue;
-}
-
-.green {
-    background-color: lightgreen;
 }
 
 .yellow {
@@ -118,21 +153,20 @@ h2 {
     background-color: lightpink;
 }
 
-.natural {
-    background-color: tan;
+.titanblack {
+    background-color: #4b4c4e;
 }
 
-.black2 {
-    background-color: #333333;
+.titanwhite {
+    background-color: #f3f2ec;
 }
 
-.white {
-    background-color: white;
-    color: black;
+.titanblue {
+    background-color: #4a5160;
 }
 
-.blue2 {
-    background-color: darkblue;
+.titannatural {
+    background-color: #bbb5a9;
 }
 
 .center {
@@ -141,28 +175,56 @@ h2 {
     width: 60%;
 }
 
-.suggested1 {
-    display: inline-block;
-    width: 30%;
-}
-
-.suggested2 {
-    display: inline-block;
-    width: 30%;
-}
-
-.suggested3 {
-    display: inline-block;
-    width: 39%;
-}
-
 #allContent {
     background: lightgrey;
     margin: 60px;
     overflow: hidden;
 }
 
-#mainContent {
-    float: center;
-    margin: 50px;
+.productDescription {
+    border: 2px solid #333333;
+    width: 1000px;
+    margin: 0 600px 50px 300px;
+    padding: 10px;
+    float: left;
+    text-align: left;
+    text-wrap: normal;
 }
+
+#finalConfiguration {
+    display: inline-block;
+    margin: 50px 0 200px 500px;
+    text-align: center;
+}
+
+#other-products {
+    padding-left: 30px;
+}
+
+figure img {
+    width: 100%;
+    display: block;
+}
+
+figure {
+    display: inline-block;
+    width: 31%;
+    margin: 15px;
+    vertical-align: auto;
+    text-align: center;
+}
+
+figcaption {
+    padding-top: 10px;
+}
+
+footer {
+    padding-top: 100px;
+    text-align: center;
+    margin: 0;
+}
+
+#iphone-15, #iphone-15-pro {
+    display: inline;
+}
+
